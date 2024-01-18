@@ -1,0 +1,102 @@
+.testimonialParent {
+    background: url(/tetfund/public/purple.png);
+    width: unset;
+}
+
+.testimonialContent {
+    width: 1440px;
+    margin-inline: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    gap: 4rem;
+}
+
+.subtitle {
+    font-size: 4rem;
+    text-transform: capitalize;
+}
+
+
+.testimonialContentSecondChild {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+    text-align: center;
+}
+
+
+.mainImg {
+    width: 80px;
+}
+
+
+.morePersonalContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    gap: 2.5rem;
+}
+
+.name {
+    text-align: center;
+    font-family: Poppins;
+    font-size: 2.8rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    text-transform: capitalize;
+}
+
+.realName {
+    color: #FF5722;
+}
+
+.starts {
+    font-size: 2.5rem;
+}
+
+
+.moreBriefing {
+    color: #475569;
+    font-family: Poppins;
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    width: 500px;
+}
+
+.left {
+    width: 60px;
+    height: 60px;
+    background: #2563EB;
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.move {
+    width: 20px;
+}
+
+.right {
+    width: 60px;
+    height: 60px;
+    background: #2563EB;
+    border-radius: 50%;
+    position: absolute;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,23 @@
+.partnerSection {
+    display: flex;
+    gap: 6rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.subTitle {
+    font-size: 4rem;
+    text-transform: capitalize;
+}
+
+.partnerPack {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.logo {
+    width: 100px;
+}

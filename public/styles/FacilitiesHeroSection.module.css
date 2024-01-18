@@ -1,0 +1,26 @@
+.facilityMainWrapper {
+    padding-block: 12rem;
+    background-size: cover;
+    background: url(../facility.png);
+}
+
+.facilitySectionContainer {
+    border-top: .1rem solid #E2E8F0;
+    padding-top: 8rem;
+}
+
+.innerFacilityHeroSectionContainer {
+    padding-top: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.mainHeading{
+    font-size: 4.2rem;
+    text-transform: uppercase;
+    border: .3rem solid white;
+    padding:2rem;
+    color: white;
+}

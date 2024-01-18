@@ -1,0 +1,21 @@
+.videoParent {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.subTitle {
+    font-size: 4rem;
+    text-transform: capitalize;
+}
+
+.videoWrapper {
+    width: 100%;
+}
+
+
+.video {
+    width: 100%;
+}

@@ -1,0 +1,60 @@
+.visionContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.leftPart {
+    display: flex;
+    flex-direction: column;
+    gap: 2.4rem;
+    align-items: flex-start;
+    width: 550px;
+}
+
+.subTitle {
+    font-size: 4rem;
+    text-transform: capitalize;
+}
+
+.brief {
+    color: #475569;
+    font-family: Poppins;
+    font-size: 1.8rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    /* 28.8px */
+}
+
+.lastAspect {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.blueText {
+    color: #2563EB;
+    font-family: Poppins;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+}
+
+
+.rightPart {
+    width: 550px;
+}
+
+
+.rightArrow {
+    width: 20px;
+}
+
+
+.starPic {
+    width: 100%;
+}

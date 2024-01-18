@@ -1,0 +1,16 @@
+.postContainer {
+    display: flex;
+    gap: 3rem;
+    align-items: center;
+    flex-direction: column;
+}
+
+.subTitle {
+    font-size: 4rem;
+    text-transform: capitalize;
+}
+
+.postsPack {
+    display: flex;
+    gap: 4rem;
+}

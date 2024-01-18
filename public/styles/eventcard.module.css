@@ -1,0 +1,50 @@
+.eventCard {
+    width: 25%;
+    border-radius: 10px;
+    border: 3px solid #343538;
+    background: #FFF;
+}
+
+.eventImg {
+    width: 100%;
+}
+
+
+.eventBrief {
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    align-items: flex-start;
+
+}
+
+
+.cardHeading {
+    color: #343434;
+    font-family: Work Sans;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.cardBrief {
+    color: #475569;
+    font-family: Poppins;
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+}
+
+.btn {
+    margin-top: 2rem;
+    border-radius: 30px;
+    background: #2563EB;
+    color: white;
+    padding: .7rem;
+    border: none;
+    font-size: 1.6rem;
+    padding-inline: 1rem;
+}
