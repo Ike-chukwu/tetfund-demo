@@ -53,6 +53,52 @@
     letter-spacing: 0.5px;
 }
 
-.rightArrow{
+.rightArrow {
     width: 20px;
+}
+
+
+@media(max-width:1472px) {
+    .rightSide {
+        width: 400px;
+    }
+
+    .subTitle {
+        font-size: 2.5rem;
+    }
+
+
+}
+
+
+@media(max-width:1038px) {
+    .missonParent {
+        flex-direction: column;
+        width: 100%;
+        gap: 5rem;
+    }
+
+    .subTitle {
+        font-size: 2rem;
+    }
+
+    .rightSide {
+        text-align: center;
+        align-items: center;
+        gap: 1.5rem;
+    }
+
+    .rightSide,
+    .leftSide {
+        width: 100%;
+    }
+
+    .brief {
+        width: 100%;
+    }
+
+    .heroSectionContainer {
+        padding-top: 4rem;
+    }
+
 }

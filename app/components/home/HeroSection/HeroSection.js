@@ -7,7 +7,7 @@ const HeroSection = () => {
       <div className={styles.heroSectionContainer}>
         <section className={styles.innerHeroSectionContainer}>
           <div className={styles.leftPart}>
-            <h1 className={styles.title}>Empowering Tomorrow's Innovators</h1>
+            <h1 className={styles.title}>Empowering Tomorrows Innovators</h1>
             <p className={styles.brief}>
               TETFund Centre of Excellence in Digital Literacy and Emerging
               Technology (TCoEx-DILET) is a place where Digital Literacy and

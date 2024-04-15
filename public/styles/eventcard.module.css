@@ -48,3 +48,24 @@
     font-size: 1.6rem;
     padding-inline: 1rem;
 }
+
+@media(max-width:1472px) {
+
+    .cardHeading {
+        font-size: 2rem;
+    }
+
+}
+
+
+@media(max-width:1038px) {
+    .eventCard {
+        width: 100%;
+    }
+
+    .cardHeading {
+        font-size: 1.6rem;
+    }
+
+
+}

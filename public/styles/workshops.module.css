@@ -1,0 +1,101 @@
+.events {
+    padding-block: 10rem;
+}
+
+.title {
+    font-size: 3rem;
+    padding-bottom: 3rem;
+    text-transform: capitalize;
+}
+
+.aspects {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.aspect {
+    width: 33%;
+    border-radius: 1.2rem;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.imgContainer {
+    width: 100%;
+    border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+}
+
+.image {
+    width: 100%;
+    border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+}
+
+.techPark {
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.smallTitle {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.midTitle {
+    font-size: 1.8rem;
+    color: #191825;
+}
+
+.side {
+    display: flex;
+    gap: .5rem;
+    align-items: center;
+    padding-top: 1rem;
+}
+
+.little {
+    font-size: 1.4rem;
+    color: #FF5722;
+    text-transform: capitalize;
+}
+
+
+@media(max-width:1472px) {
+    .title {
+        font-size: 2.5rem;
+    }
+
+    .smallTitle {
+        font-size: 1.6rem;
+    }
+
+    .midTitle,
+    .side {
+        font-size: 1.3rem;
+    }
+
+}
+
+
+@media(max-width:1038px) {
+    .title {
+        font-size: 2rem;
+    }
+
+    .events {
+        padding-block: 10rem;
+    }
+
+    .aspects {
+        gap: 4rem;
+        flex-direction: column;
+    }
+
+    .aspect {
+        width: 100%;
+    }
+}

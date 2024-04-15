@@ -1,0 +1,112 @@
+.formContainer {
+    display: flex;
+    justify-content: space-between;
+    gap: 4rem;
+    align-items: center;
+}
+
+
+.leftSide {
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 5rem;
+}
+
+.division {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: start;
+}
+
+.title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.moreTalk {
+    font-size: 1.6rem;
+}
+
+
+.moreTalk:nth-of-type(1) {
+    line-height: 1.5;
+    width: 450px;
+}
+
+.rightSide {
+    width: 51%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 3rem;
+}
+
+.inputPack {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: flex-start;
+}
+
+.label {
+    font-size: 1.6rem;
+}
+
+.inputField {
+    width: 100%;
+    padding: 1rem;
+    background: #f7f7f7;
+    border: .1rem solid #d2d2d2d2;
+}
+
+.btn {
+    width: 100%;
+    padding: 1rem;
+    background: #2563eb;
+    color: white;
+    text-transform: capitalize;
+    outline: none;
+    border: none;
+    font-size: 1.6rem;
+}
+
+
+@media(max-width:1472px) {
+    .title {
+        font-size: 2rem;
+    }
+
+}
+
+
+@media(max-width:940px) {
+    .formContainer {
+        gap: 6rem;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .leftSide {
+        gap: 3rem;
+    }
+
+    .leftSide,
+    .rightSide {
+        width: 100%;
+    }
+
+    .title{
+        font-size: 1.8rem;
+    }
+
+    .moreTalk:nth-of-type(1) {
+        width: 100%;
+    }
+
+
+}

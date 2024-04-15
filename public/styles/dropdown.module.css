@@ -1,0 +1,74 @@
+.dropdownMain {
+    border: .1rem solid black;
+    padding-block: 1rem;
+    padding-inline: 1rem;
+    width: 700px;
+}
+
+.topPart {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mainBold {
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+.mainQuestion {
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.mainQuestion {
+    font-weight: bold;
+    font-size: 1.6rem;
+}
+
+.blueBg {
+    width: 3rem;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: blue;
+}
+
+.bottomPart {
+    max-height: 0;
+    overflow: hidden;
+    transition: 1s linear;
+}
+
+.brief {
+    font-size: 1.6rem;
+    padding-top: 1.5rem;
+}
+
+.active {
+    max-height: 36rem;
+}
+
+
+
+@media(max-width:800px) {
+    .dropdownMain {
+        width: 100%;
+    }
+
+    .mainBold {
+        font-size: 1.4rem;
+        font-weight: bold;
+    }
+
+    .mainQuestion {
+        font-size: 1.2rem;
+    }
+
+    .brief {
+        font-size: 1.4rem;
+    }
+
+
+}

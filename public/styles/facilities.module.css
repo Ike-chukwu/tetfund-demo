@@ -1,0 +1,53 @@
+.title {
+    font-size: 3rem;
+    padding-bottom: 3rem;
+    text-transform: capitalize;
+}
+
+
+.cardContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    
+}
+
+
+
+@media(max-width:1472px) {
+    .title {
+        font-size: 2.5rem;
+    }
+
+    .smallTitle {
+        font-size: 1.2rem;
+    }
+
+    .midTitle {
+        font-size: 1.6rem;
+    }
+
+    .side {
+        gap: 1.5rem;
+    }
+
+    .little {
+        font-size: 1.4rem;
+    }
+
+}
+
+
+@media(max-width:1472px) {
+    .title {
+        font-size: 2.5rem;
+    }
+
+    
+}
+
+@media(max-width:1038px) {
+    .title {
+        font-size: 2rem;
+    }
+}

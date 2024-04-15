@@ -1,0 +1,147 @@
+.personalProgram {
+    display: flex;
+    flex-direction: column;
+    gap: 7rem;
+    align-items: flex-start;
+    padding-top: 17rem;
+}
+
+.firstDetail {
+    width: 100%;
+    aspect-ratio: 2/1;
+}
+
+.lgImg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.textPack {
+    display: flex;
+    flex-direction: column;
+    gap: 3.5rem;
+    align-items: flex-start;
+}
+
+.headingDetails {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    align-items: flex-start;
+}
+
+.programHeading {
+    color: #12141D;
+    font-family: Space Grotesk;
+    font-size: 4.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 56px;
+    /* 93.333% */
+    letter-spacing: -1px;
+}
+
+.paraText {
+    color: #12141D;
+    font-family: Inter;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 26px;
+    /* 104% */
+}
+
+
+.paragraphPack {
+    display: flex;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: flex-start;
+}
+
+
+.moreText {
+    color: #12141D;
+    font-family: Inter;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 26px;
+    margin-bottom: 1rem;
+}
+
+.actionBtn {
+    color: #FFF;
+    text-align: right;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    border: none;
+    background: #EF4444;
+    padding: 1rem 5rem;
+    text-transform: uppercase;
+}
+
+.picPack {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 3rem;
+}
+
+
+.pic {
+    width: 100%;
+}
+
+
+
+@media(max-width:1060px) {
+
+    .personalProgram {
+        gap: 4.5rem;
+    }
+
+    .programHeading {
+        font-size: 3rem;
+    }
+
+    .paraTex,
+    .moreText {
+        font-size: 1.8rem;
+    }
+}
+
+@media(max-width:973px) {
+
+    .personalProgram {
+        padding-top: 13rem;
+    }
+
+
+    .firstDetail {
+        width: 100%;
+        aspect-ratio: 1/1;
+    }
+
+    .textPack {
+        gap: 2.5rem;
+    }
+
+    .programHeading {
+        font-size: 2.5rem;
+        line-height: unset;
+    }
+
+
+
+    .picPack {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 3rem;
+    }
+
+}

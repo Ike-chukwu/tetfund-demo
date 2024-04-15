@@ -58,3 +58,55 @@
 .starPic {
     width: 100%;
 }
+
+
+@media(max-width:1472px) {
+    .rightPart {
+        width: 400px;
+    }
+
+    .subTitle {
+        font-size: 2.5rem;
+        /* width: 100ch; */
+    }
+
+    .leftPart {
+        width: 500px;
+    }
+
+
+}
+
+
+@media(max-width:1038px) {
+    .visionContainer {
+        flex-direction: column-reverse;
+        width: 100%;
+        gap: 5rem;
+    }
+
+    .subTitle {
+        font-size: 2rem;
+        /* width: 100ch; */
+    }
+
+    .leftPart {
+        text-align: center;
+        align-items: center;
+        gap: 1.5rem;
+    }
+
+    .rightPart,
+    .leftPart {
+        width: 100%;
+    }
+
+    .brief {
+        width: 100%;
+    }
+
+    .heroSectionContainer {
+        padding-top: 4rem;
+    }
+
+}

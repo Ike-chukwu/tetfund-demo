@@ -1,0 +1,100 @@
+.events {
+    padding-block: unset;
+}
+
+.title {
+    font-size: 3rem;
+    padding-bottom: 3rem;
+    text-transform: capitalize;
+}
+
+.pictures {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.picture {
+    width: 25%;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: .8rem;
+    align-items: flex-start;
+    border-radius: 1.2rem;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.smallTitle {
+    font-size: 1.6rem;
+}
+
+.midTitle {
+    font-size: 2.4rem;
+}
+
+.imgContainer {
+    width: 100%;
+}
+
+.image {
+    width: 100%;
+}
+
+.side {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    padding-top: 2rem;
+}
+
+.little {
+    font-size: 1.6rem;
+    color: #2563EB;
+    text-transform: capitalize;
+}
+
+
+@media(max-width:1472px) {
+    .title {
+        font-size: 2.5rem;
+    }
+
+    .smallTitle {
+        font-size: 1.2rem;
+    }
+
+    .midTitle {
+        font-size: 1.6rem;
+    }
+
+    .side {
+        gap: 1.5rem;
+    }
+
+    .little {
+        font-size: 1.4rem;
+    }
+
+}
+
+
+@media(max-width:1038px) {
+    .title {
+        font-size: 2rem;
+    }
+
+    .pictures {
+        gap: 4rem;
+        flex-direction: column;
+    }
+
+    .picture {
+        width: 100%;
+    }
+
+    .events {
+        padding-inline: unset;
+    }
+}
